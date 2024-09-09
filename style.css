@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(235, 153, 163);
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  height: 150%;
+  font-style: normal;
+  font-size: 220%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(215, 102, 102);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.Passo {
+  display: none;
+}
+
+.Passo.ativo {
+  display: block;
+}
+
+img {
+  max-width: 40%;
+}
+
+main {
+  max-width: 90%;
+  text-align: center;
+}
